@@ -1,0 +1,12 @@
+{
+  "name": "kd-vision-client-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional React and Node website for KD Vision.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

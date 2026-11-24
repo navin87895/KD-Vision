@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" width="520" height="160">
+  <defs>
+    <style>
+      .brand-title { font-family: 'Playfair Display', 'Georgia', serif; font-size: 54px; font-weight: 700; fill: #161411; letter-spacing: 5px; }
+      .brand-tagline { font-family: 'Outfit', 'Helvetica', sans-serif; font-size: 13.5px; font-weight: 600; fill: #161411; letter-spacing: 5.5px; opacity: 0.9; }
+      .film-path { fill: #161411; }
+    </style>
+  </defs>
+
+  <!-- Filmstrip Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Outer tilted film frame -->
+    <path class="film-path" d="
+      M 32 16
+      L 118 4
+      C 120 4, 122 6, 121 9
+      L 100 144
+      C 99 146, 97 148, 95 148
+      L 10 128
+      C 8 127, 7 125, 8 123
+      L 29 19
+      C 29 17, 31 16, 32 16 Z
+
+      M 34 26 L 20 120 L 32 123 L 44 28 Z
+      M 86 16 L 96 137 L 108 139 L 98 18 Z
+      
+      M 40 28 L 90 20 L 88 44 L 38 52 Z
+      M 36 64 L 86 56 L 84 104 L 34 112 Z
+    " fill-rule="evenodd" />
+    
+    <!-- Left perforations -->
+    <rect class="film-path" x="14" y="22" width="6" height="9" transform="rotate(-7 17 26)" rx="1" />
+    <rect class="film-path" x="16" y="36" width="6" height="9" transform="rotate(-7 19 40)" rx="1" />
+    <rect class="film-path" x="18" y="50" width="6" height="9" transform="rotate(-7 21 54)" rx="1" />
+    <rect class="film-path" x="20" y="64" width="6" height="9" transform="rotate(-7 23 68)" rx="1" />
+    <rect class="film-path" x="22" y="78" width="6" height="9" transform="rotate(-7 25 82)" rx="1" />
+    <rect class="film-path" x="24" y="92" width="6" height="9" transform="rotate(-7 27 96)" rx="1" />
+    <rect class="film-path" x="26" y="106" width="6" height="9" transform="rotate(-7 29 110)" rx="1" />
+
+    <!-- Right perforations -->
+    <rect class="film-path" x="98" y="10" width="6" height="9" transform="rotate(-7 101 14)" rx="1" />
+    <rect class="film-path" x="100" y="24" width="6" height="9" transform="rotate(-7 103 28)" rx="1" />
+    <rect class="film-path" x="102" y="38" width="6" height="9" transform="rotate(-7 105 42)" rx="1" />
+    <rect class="film-path" x="104" y="52" width="6" height="9" transform="rotate(-7 107 56)" rx="1" />
+    <rect class="film-path" x="106" y="66" width="6" height="9" transform="rotate(-7 109 70)" rx="1" />
+    <rect class="film-path" x="108" y="80" width="6" height="9" transform="rotate(-7 111 84)" rx="1" />
+    <rect class="film-path" x="110" y="94" width="6" height="9" transform="rotate(-7 113 98)" rx="1" />
+    <rect class="film-path" x="112" y="108" width="6" height="9" transform="rotate(-7 115 112)" rx="1" />
+    <rect class="film-path" x="114" y="122" width="6" height="9" transform="rotate(-7 117 126)" rx="1" />
+  </g>
+
+  <!-- Typography -->
+  <text x="148" y="88" class="brand-title">KD VISION</text>
+  <text x="150" y="124" class="brand-tagline">“ WEAVING MAGIC INTO IMAGES ”</text>
+</svg>
